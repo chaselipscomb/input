@@ -1,0 +1,70 @@
+html {
+  padding: 2% 5%;
+  height: 100vh;
+}
+.container-fluid {
+  height: 100%;
+  padding: 10vh 10vw 0 10vw;
+  background-color: whitesmoke;
+}
+.row {
+  margin-bottom: 10vh;
+}
+.col {
+  display: flex;
+  align-self: center;
+  flex-flow: column nowrap;
+  width: 200px;
+}
+input[type="text"] {
+  width: 300px;
+}
+input[type="email"] {
+  width: 300px;
+}
+input:invalid {
+  background-color: rgb(255, 147, 165);
+}
+.helperText {
+  color: grey;
+}
+.inputIcon {
+  width: 38px;
+  display: inline;
+}
+#left-icon {
+  margin-right: 10px;
+}
+#right-icon {
+  margin-left: 10px;
+}
+.inputIcon:hover {
+  cursor: pointer;
+}
+.inputIcon:active {
+  color: rgb(119, 119, 119);
+}
+.icondiv {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 375px;
+}
+.medium-input {
+  font-size: 30px;
+  color: blue;
+  border: 1px solid blue;
+}
+.large-input {
+  font-size: 40px;
+  color: red;
+  border: 1px solid red;
+}
+.full-width-input {
+  width: 100%;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  font-weight: 900;
+}
